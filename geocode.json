@@ -1,0 +1,326 @@
+{
+    "index": [
+      { "countryCoords": { "aalborg-denmark": ["57.0462626", "9.9215263"] } },
+      { "countryCoords": { "aarhus-denmark": ["56.1496278", "10.2134046"] } },
+      { "countryCoords": { "aberdeen-uk": ["57.1482429", "-2.0928095"] } },
+      {
+        "countryCoords": {
+          "abu_dhabi-united_arab_emirates": ["24.3964744", "54.5366631"]
+        }
+      },
+      { "countryCoords": { "alabama-usa": ["33.2588817", "-86.8295337"] } },
+      { "countryCoords": { "amityville-usa": ["40.6789893", "-73.4170673"] } },
+      {
+        "countryCoords": { "amsterdam-netherlands": ["52.3745403", "4.8979755"] }
+      },
+      { "countryCoords": { "anaheim-usa": ["33.8347516", "-117.911732"] } },
+      { "countryCoords": { "antwerp-belgium": ["51.2211097", "4.3997081"] } },
+      { "countryCoords": { "arizona-usa": ["34.395342", "-111.7632755"] } },
+      { "countryCoords": { "arras-france": ["50.291048", "2.7772211"] } },
+      { "countryCoords": { "athens-greece": ["37.9839412", "23.7283052"] } },
+      { "countryCoords": { "atlanta-usa": ["33.7490987", "-84.3901849"] } },
+      {
+        "countryCoords": { "auckland-new_zealand": ["-36.852095", "174.7631803"] }
+      },
+      { "countryCoords": { "bangkok-thailand": ["13.7542529", "100.493087"] } },
+      { "countryCoords": { "barcelona-spain": ["41.3828939", "2.1774322"] } },
+      {
+        "countryCoords": {
+          "belo_horizonte-brazil": ["-19.9227318", "-43.9450948"]
+        }
+      },
+      { "countryCoords": { "berlin-germany": ["52.5170365", "13.3888599"] } },
+      { "countryCoords": { "berwyn-usa": ["41.8505874", "-87.7936685"] } },
+      { "countryCoords": { "bilbao-spain": ["43.2630051", "-2.9349915"] } },
+      { "countryCoords": { "birmingham-uk": ["52.4796992", "-1.9026911"] } },
+      { "countryCoords": { "bogota-colombia": ["4.598481", "-74.0765482"] } },
+      { "countryCoords": { "boston-usa": ["42.3602534", "-71.0582912"] } },
+      {
+        "countryCoords": {
+          "boulogne_billancourt-france": ["48.8356649", "2.240206"]
+        }
+      },
+      { "countryCoords": { "brasilia-brazil": ["-10.3333333", "-53.2"] } },
+      {
+        "countryCoords": { "bratislava-slovakia": ["48.1516988", "17.1093063"] }
+      },
+      {
+        "countryCoords": { "brisbane-australia": ["-27.4689682", "153.0234991"] }
+      },
+      { "countryCoords": { "brixton-uk": ["51.4568044", "-0.1167959"] } },
+      { "countryCoords": { "brooklyn-usa": ["40.6501038", "-73.9495823"] } },
+      { "countryCoords": { "budapest-hungary": ["47.4983815", "19.0404707"] } },
+      {
+        "countryCoords": {
+          "buenos_aires-argentina": ["-34.6075682", "-58.4370894"]
+        }
+      },
+      { "countryCoords": { "burriana-spain": ["39.8898861", "-0.0843747"] } },
+      { "countryCoords": { "burswood-australia": ["-31.96267", "115.8954"] } },
+      { "countryCoords": { "california-usa": ["36.7014631", "-118.7559974"] } },
+      { "countryCoords": { "canton-usa": ["32.555664", "-95.8640507"] } },
+      { "countryCoords": { "cardiff-uk": ["51.4816546", "-3.1791934"] } },
+      { "countryCoords": { "changzhou-china": ["31.8129864", "119.9692045"] } },
+      { "countryCoords": { "charlotte-usa": ["26.9013269", "-81.9156799"] } },
+      { "countryCoords": { "chicago-usa": ["41.8755616", "-87.6244212"] } },
+      { "countryCoords": { "cincinnati-usa": ["39.1014537", "-84.5124602"] } },
+      { "countryCoords": { "cleveland-usa": ["41.5051613", "-81.6934446"] } },
+      { "countryCoords": { "colorado-usa": ["38.7251776", "-105.6077167"] } },
+      { "countryCoords": { "columbia-usa": ["41.0389186", "-76.4191791"] } },
+      { "countryCoords": { "copenhagen-denmark": ["55.6867243", "12.5700724"] } },
+      { "countryCoords": { "cuxhaven-germany": ["53.86878", "8.698286"] } },
+      { "countryCoords": { "dallas-usa": ["32.7762719", "-96.7968559"] } },
+      { "countryCoords": { "del_mar-usa": ["32.9594891", "-117.2653146"] } },
+      { "countryCoords": { "detroit-usa": ["42.3315509", "-83.0466403"] } },
+      { "countryCoords": { "doha-qatar": ["25.2856329", "51.5264162"] } },
+      {
+        "countryCoords": {
+          "dubai-united_arab_emirates": ["25.0750095", "55.1887609"]
+        }
+      },
+      { "countryCoords": { "dublin-ireland": ["53.3497645", "-6.2602732"] } },
+      {
+        "countryCoords": { "dunedin-new_zealand": ["-45.8740984", "170.5035755"] }
+      },
+      { "countryCoords": { "dusseldorf-germany": ["51.2254018", "6.7763137"] } },
+      {
+        "countryCoords": { "eindhoven-netherlands": ["51.4485569", "5.4501225"] }
+      },
+      { "countryCoords": { "florence-italy": ["43.7698712", "11.2555757"] } },
+      { "countryCoords": { "florida-usa": ["27.7567667", "-81.4639835"] } },
+      { "countryCoords": { "frankfurt-germany": ["50.1106444", "8.6820917"] } },
+      {
+        "countryCoords": { "frauenfeld-switzerland": ["47.5561915", "8.8963347"] }
+      },
+      {
+        "countryCoords": {
+          "freyming_merlebach-france": ["49.1469437", "6.8184829"]
+        }
+      },
+      { "countryCoords": { "gdynia-poland": ["54.5164982", "18.5402738"] } },
+      { "countryCoords": { "georgia-usa": ["32.3293809", "-83.1137366"] } },
+      {
+        "countryCoords": { "glasgow-australia": ["-38.6492433", "143.3682758"] }
+      },
+      { "countryCoords": { "glasgow-uk": ["55.8609825", "-4.2488787"] } },
+      { "countryCoords": { "gothenburg-sweden": ["57.7072326", "11.9670171"] } },
+      { "countryCoords": { "grand_rapids-usa": ["42.9632405", "-85.6678639"] } },
+      {
+        "countryCoords": { "groningen-netherlands": ["53.2217925", "6.5582453"] }
+      },
+      { "countryCoords": { "hamburg-germany": ["53.550341", "10.000654"] } },
+      { "countryCoords": { "hershey-usa": ["41.1586455", "-101.0023673"] } },
+      { "countryCoords": { "hong_kong-china": ["22.350627", "114.1849161"] } },
+      { "countryCoords": { "houston-usa": ["29.7589382", "-95.3676974"] } },
+      { "countryCoords": { "huizhou-china": ["23.1060862", "114.4141105"] } },
+      { "countryCoords": { "illinois-usa": ["40.0796606", "-89.4337288"] } },
+      { "countryCoords": { "imola-italy": ["44.3535145", "11.7141233"] } },
+      { "countryCoords": { "indianapolis-usa": ["39.7683331", "-86.1583502"] } },
+      { "countryCoords": { "inglewood-usa": ["33.9562003", "-118.353132"] } },
+      { "countryCoords": { "jakarta-indonesia": ["-6.1753942", "106.827183"] } },
+      { "countryCoords": { "kansas_city-usa": ["39.1134562", "-94.626497"] } },
+      { "countryCoords": { "klagenfurt-austria": ["46.6228162", "14.3079604"] } },
+      { "countryCoords": { "krakow-poland": ["50.0619474", "19.9368564"] } },
+      {
+        "countryCoords": { "la_plata-argentina": ["-34.9206797", "-57.9537638"] }
+      },
+      {
+        "countryCoords": { "landgraaf-netherlands": ["50.9024566", "6.0293103"] }
+      },
+      { "countryCoords": { "las_vegas-usa": ["35.5939325", "-105.2238969"] } },
+      {
+        "countryCoords": { "lausanne-switzerland": ["46.5218269", "6.6327025"] }
+      },
+      { "countryCoords": { "leipzig-germany": ["51.3406321", "12.3747329"] } },
+      { "countryCoords": { "lima-peru": ["-12.0621065", "-77.0365256"] } },
+      { "countryCoords": { "lisbon-portugal": ["38.7077507", "-9.1365919"] } },
+      { "countryCoords": { "london-uk": ["51.5073219", "-0.1276474"] } },
+      { "countryCoords": { "los_angeles-usa": ["34.0536909", "-118.2427666"] } },
+      { "countryCoords": { "lyon-france": ["45.7578137", "4.8320114"] } },
+      { "countryCoords": { "madison-usa": ["30.9551586", "-95.9507234"] } },
+      { "countryCoords": { "madrid-spain": ["40.4167047", "-3.7035825"] } },
+      { "countryCoords": { "maine-usa": ["45.709097", "-68.8590201"] } },
+      { "countryCoords": { "manchester-uk": ["53.4794892", "-2.2451148"] } },
+      { "countryCoords": { "manila-philippine": ["14.5688734", "121.0138029"] } },
+      {
+        "countryCoords": { "manila-philippines": ["14.5906216", "120.9799696"] }
+      },
+      { "countryCoords": { "mannheim-germany": ["49.489591", "8.467236"] } },
+      { "countryCoords": { "massachusetts-usa": ["42.3788774", "-72.032366"] } },
+      {
+        "countryCoords": { "melbourne-australia": ["-37.8142176", "144.9631608"] }
+      },
+      { "countryCoords": { "merkers-germany": ["50.8235683", "10.116702"] } },
+      {
+        "countryCoords": { "mexico_city-mexico": ["19.4326296", "-99.1331785"] }
+      },
+      { "countryCoords": { "michigan-usa": ["43.6211955", "-84.6824346"] } },
+      { "countryCoords": { "milan-italy": ["45.4668", "9.1905"] } },
+      { "countryCoords": { "minneapolis-usa": ["44.9772995", "-93.2654692"] } },
+      { "countryCoords": { "minnesota-usa": ["45.9896587", "-94.6113288"] } },
+      { "countryCoords": { "minsk-belarus": ["53.902334", "27.5618791"] } },
+      { "countryCoords": { "missouri-usa": ["38.7604815", "-92.5617875"] } },
+      {
+        "countryCoords": {
+          "monchengladbach-germany": ["51.1946983", "6.4353641"]
+        }
+      },
+      { "countryCoords": { "monterrey-mexico": ["25.6802019", "-100.3152586"] } },
+      { "countryCoords": { "montreal-canada": ["45.4972159", "-73.6103642"] } },
+      { "countryCoords": { "montreal-usa": ["46.4280033", "-90.2460097"] } },
+      { "countryCoords": { "mumbai-india": ["18.9387711", "72.8353355"] } },
+      { "countryCoords": { "munich-germany": ["48.1371079", "11.5753822"] } },
+      { "countryCoords": { "nagoya-japan": ["35.1851045", "136.8998438"] } },
+      { "countryCoords": { "napoca-romania": ["46.769379", "23.5899542"] } },
+      { "countryCoords": { "nevada-usa": ["39.5158825", "-116.8537227"] } },
+      { "countryCoords": { "new_hampshire-usa": ["43.4849133", "-71.6553992"] } },
+      { "countryCoords": { "new_orleans-usa": ["29.9499323", "-90.0701156"] } },
+      {
+        "countryCoords": {
+          "new_south_wales-australia": ["-31.8759835", "147.2869493"]
+        }
+      },
+      { "countryCoords": { "new_york-us": ["40.7127281", "-74.0060152"] } },
+      { "countryCoords": { "new_york-usa": ["40.7127281", "-74.0060152"] } },
+      { "countryCoords": { "newark-usa": ["40.735657", "-74.1723667"] } },
+      {
+        "countryCoords": { "nickelsdorf-austria": ["47.9403019", "17.0661763"] }
+      },
+      { "countryCoords": { "nimes-france": ["43.8374249", "4.3600687"] } },
+      {
+        "countryCoords": { "north_carolina-usa": ["35.6729639", "-79.0392919"] }
+      },
+      {
+        "countryCoords": { "noumea-new_caledonia": ["-22.2745264", "166.442419"] }
+      },
+      { "countryCoords": { "oakland-usa": ["37.8044557", "-122.2713563"] } },
+      { "countryCoords": { "oklahoma-usa": ["34.9550817", "-97.2684063"] } },
+      { "countryCoords": { "omaha-usa": ["41.2587459", "-95.9383758"] } },
+      { "countryCoords": { "oregon-usa": ["43.9792797", "-120.737257"] } },
+      { "countryCoords": { "osaka-japan": ["34.6198813", "135.490357"] } },
+      { "countryCoords": { "oslo-norway": ["59.9133301", "10.7389701"] } },
+      {
+        "countryCoords": {
+          "ostrava-czech_republic": ["49.8349139", "18.2820084"]
+        }
+      },
+      { "countryCoords": { "oulu-finland": ["65.0118734", "25.4716809"] } },
+      {
+        "countryCoords": {
+          "pagney_derriere_barine-france": ["48.6943", "5.8447"]
+        }
+      },
+      {
+        "countryCoords": {
+          "papeete-french_polynesia": ["-17.5373835", "-149.5659964"]
+        }
+      },
+      { "countryCoords": { "paris-france": ["48.8566969", "2.3514616"] } },
+      { "countryCoords": { "pennsylvania-usa": ["40.9699889", "-77.7278831"] } },
+      {
+        "countryCoords": { "penrose-new_zealand": ["-36.9111443", "174.8147813"] }
+      },
+      { "countryCoords": { "philadelphia-usa": ["39.9527237", "-75.1635262"] } },
+      { "countryCoords": { "pico_rivera-usa": ["33.9830688", "-118.096735"] } },
+      { "countryCoords": { "pittsburgh-usa": ["40.4416941", "-79.9900861"] } },
+      {
+        "countryCoords": {
+          "playa_del_carmen-mexico": ["20.6308643", "-87.0779503"]
+        }
+      },
+      {
+        "countryCoords": { "porto_alegre-brazil": ["-30.0324999", "-51.2303767"] }
+      },
+      {
+        "countryCoords": { "prague-czech_republic": ["50.0874654", "14.4212535"] }
+      },
+      { "countryCoords": { "quebec-canada": ["52.4760892", "-71.8258668"] } },
+      {
+        "countryCoords": {
+          "queensland-australia": ["-22.1646782", "144.5844903"]
+        }
+      },
+      { "countryCoords": { "recife-brazil": ["-8.0641931", "-34.8781517"] } },
+      {
+        "countryCoords": {
+          "rio_de_janeiro-brazil": ["-22.9110137", "-43.2093727"]
+        }
+      },
+      {
+        "countryCoords": { "riyadh-saudi_arabia": ["24.6319692", "46.7150648"] }
+      },
+      { "countryCoords": { "rosemont-usa": ["41.9941334", "-87.8756737"] } },
+      { "countryCoords": { "rotselaar-belgium": ["50.9514713", "4.7094054"] } },
+      { "countryCoords": { "saitama-japan": ["35.8616402", "139.6457957"] } },
+      { "countryCoords": { "salem-germany": ["53.6563082", "10.8253152"] } },
+      {
+        "countryCoords": { "san_francisco-usa": ["37.7790262", "-122.4199061"] }
+      },
+      {
+        "countryCoords": {
+          "san_isidro-argentina": ["-34.4739792", "-58.5264866"]
+        }
+      },
+      {
+        "countryCoords": { "san_jose-costa_rica": ["9.9325427", "-84.0795782"] }
+      },
+      { "countryCoords": { "santiago-chile": ["-33.4377968", "-70.6504451"] } },
+      { "countryCoords": { "sanya-china": ["18.2534658", "109.5034392"] } },
+      { "countryCoords": { "sao_paulo-brasil": ["-23.5506507", "-46.6333824"] } },
+      { "countryCoords": { "sao_paulo-brazil": ["-23.5506507", "-46.6333824"] } },
+      { "countryCoords": { "scheessel-germany": ["53.1667961", "9.4840648"] } },
+      { "countryCoords": { "seattle-usa": ["47.6038321", "-122.3300624"] } },
+      { "countryCoords": { "seoul-korea": ["37.5666791", "126.9782914"] } },
+      { "countryCoords": { "seville-spain": ["37.3886303", "-5.9953403"] } },
+      { "countryCoords": { "sion-switzerland": ["46.2302151", "7.3637052"] } },
+      { "countryCoords": { "skanderborg-denmark": ["56.0351868", "9.9317878"] } },
+      { "countryCoords": { "sochaux-france": ["47.5138206", "6.8303896"] } },
+      {
+        "countryCoords": { "south_carolina-usa": ["33.6874388", "-80.4363743"] }
+      },
+      {
+        "countryCoords": { "st_gallen-switzerland": ["47.4250593", "9.3765878"] }
+      },
+      { "countryCoords": { "st_louis-usa": ["38.6268039", "-90.1994097"] } },
+      { "countryCoords": { "stockholm-sweden": ["59.3251172", "18.0710935"] } },
+      { "countryCoords": { "sydney-australia": ["-33.8548157", "151.2164539"] } },
+      { "countryCoords": { "taipei-taiwan": ["25.0375198", "121.5636796"] } },
+      { "countryCoords": { "texas-usa": ["31.8160381", "-99.5120986"] } },
+      { "countryCoords": { "toronto-canada": ["43.6534817", "-79.3839347"] } },
+      { "countryCoords": { "toronto-usa": ["41.9050213", "-90.8640346"] } },
+      { "countryCoords": { "turku-finland": ["60.4517531", "22.2670522"] } },
+      { "countryCoords": { "uniondale-usa": ["40.7003793", "-73.5929056"] } },
+      { "countryCoords": { "utah-usa": ["39.4225192", "-111.7143584"] } },
+      { "countryCoords": { "vancouver-canada": ["49.2608724", "-123.1139529"] } },
+      {
+        "countryCoords": { "victoria-australia": ["-36.5986096", "144.6780052"] }
+      },
+      { "countryCoords": { "vienna-austria": ["48.2083537", "16.3725042"] } },
+      { "countryCoords": { "warsaw-poland": ["52.2319581", "21.0067249"] } },
+      { "countryCoords": { "washington-usa": ["38.8949855", "-77.0365708"] } },
+      {
+        "countryCoords": {
+          "wellington-new_zealand": ["-41.2887953", "174.7772114"]
+        }
+      },
+      { "countryCoords": { "werchter-belgium": ["50.9701533", "4.6933645"] } },
+      {
+        "countryCoords": {
+          "west_melbourne-australia": ["-37.8104475", "144.9204298"]
+        }
+      },
+      { "countryCoords": { "westcliff_on_sea-uk": ["51.5428858", "0.6859213"] } },
+      {
+        "countryCoords": {
+          "willemstad-netherlands_antilles": ["12.11721", "-68.91964"]
+        }
+      },
+      { "countryCoords": { "windsor-canada": ["42.317099", "-83.0353434"] } },
+      {
+        "countryCoords": { "yogyakarta-indonesia": ["-7.8011945", "110.364917"] }
+      },
+      { "countryCoords": { "zaragoza-spain": ["41.6521342", "-0.8809428"] } },
+      { "countryCoords": { "zurich-switzerland": ["47.3723941", "8.5423328"] } }
+    ]
+  }
+  

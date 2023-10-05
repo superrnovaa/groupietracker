@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Groupie Tracker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="close-icon" id="closeButton">&#10006;</div>
+    </div>
+    <ul>
+      <li><a href="#">Date Created</a></li>
+      <li><a href="#">First Album</a></li>
+      <li><a href="#">Members</a></li>
+      <li><a href="#">Concerts</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="menu-icon" id="toggleButton">&#9776;</div>
+    <form role="search" id="form">
+      <input types="search" id="query" name="q" placeholder="search..">
+      <button id="search-button">search</button>
+  </form>
+  </div>
+
+    <div class="header">
+        <h1>Groupie Tracker</h1>
+      </div>
+
+  <div class="row">
+  <div class="main">
+    <div class="flex-container" id="artist-container">
+
+        {{ range .}}
+        <div class="card">
+          <a href="/artist?ID={{.ID}}">
+            <div class="image"
+              style="background-image: url(&quot;{{.Image}}&quot;);">
+            </div>
+            <div class="artist-info">
+              <span class="artist-title">{{.Name}}</span><br>
+              <span class="artist-year">{{.CreationDate}}</span>
+            </div>
+            </a></div>
+          {{else}} <span> No Data Available</span>
+          {{end}}
+
+      </div>
+    </div>
+  </div>
+
+    
+   
+    <script>
+      const toggleButton = document.getElementById('toggleButton');
+const closeButton = document.getElementById('closeButton');
+const sidebar = document.querySelector('.sidebar');
+const content = document.querySelector('.content');
+
+toggleButton.addEventListener('click', function() {
+  sidebar.classList.toggle('active');
+  content.classList.toggle('active');
+});
+
+closeButton.addEventListener('click', function() {
+  sidebar.classList.remove('active');
+  content.classList.remove('active');
+});
+
+     function handleCardClick(id) {
+    // Fetch additional data based on the ID using AJAX
+    fetch('/artist?id=' + id)
+      .then(function (response) {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error('Network response was not ok.');
+      })
+      .then(function (data) {
+        // Open the modal and pass the data to the openModal function
+        openModal(data);
+      })
+      .catch(function (error) {
+        console.log('Error:', error.message);
+      });
+  }
+
+
+// Function to handle the search button click event
+function handleSearch() {
+  // Get the search query from the input field
+  const searchInput = document.getElementById('query');
+  const searchTerm = searchInput.value.trim();
+  //console.log(searchInput)
+  console.log(searchTerm)
+
+  var jsonObject = {};
+  jsonObject['q'] = searchTerm;
+  // Send the search query to the server-side code
+  fetch('/search', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(jsonObject)
+  })
+    .then(response => {
+      if (response.ok) {
+        // Handle the successful response from the server
+        return response.text(); // Assuming the server responds with HTML content
+      } else {
+        // Handle an error response from the server
+        throw new Error('Search request failed');
+      }
+    })
+    .then(htmlContent => {
+      // Handle the HTML content received from the server
+      console.log('HTML content:', htmlContent);
+      // Perform any required processing or rendering with the HTML content
+      // For example, you can update a div element with the received content
+      const resultContainer = document.getElementById('resultContainer');
+      resultContainer.innerHTML = htmlContent;
+    })
+    .catch(error => {
+      // Handle any errors that occurred during the search request
+      console.error('Search error:', error);
+    });
+}
+
+// Add event listener to the search button
+const searchButton = document.getElementById('search-button');
+searchButton.addEventListener('click', handleSearch);
+</script>
+</body>
+</html>

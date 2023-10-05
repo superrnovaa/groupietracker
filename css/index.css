@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: "Copperplate Gothic", sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+.header {
+background-color: #e0d9d9;
+height: 100px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 9px;
+}
+
+h1 {
+    color: rgb(76, 54, 199);
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  hr {
+    opacity: 50%;
+  }
+
+  /* Main column */
+  .main {
+    flex: 70%;
+    padding: 20px;
+  }
+
+  .card {
+    display: flex;
+    margin: 10px 10px;
+    text-align: center;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+  }
+  
+   .image {
+    /* Add any additional styling for the image */
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    background-image: url("");
+    width: 100%;
+    padding: 20px;
+    height:200px; 
+    width:200px;
+
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .flex-container a {
+    text-decoration: none;
+    color: inherit
+  }
+
+  .artist-info {
+    padding-top: 5px;
+    cursor: pointer;
+    width: 200px;
+  }
+
+  .artist-title {
+    font-size: 1.2em;
+    color: rgb(18, 60, 80);
+    text-align: center;
+  }
+
+  .artist-year {
+    font-size: 0.8em;
+    opacity: 70%;
+    color: rgb(18, 60, 80);
+    text-align: center;
+  }
+
+
+form {
+    background-color: #f6f7f8;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+input {
+    all: unset;
+    font: 15px system-ui;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+    margin-left: auto;
+
+}
+
+.content {
+    padding: 20px;
+    position: relative;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .search-form input {
+    text-align: right;
+    margin-left: auto;
+  }
+  
+.column{
+    float: left;
+    width: 30%;
+    padding: 10px 10px;
+}
+
+.card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #d1d9e7;
+    width: 25%;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .sidebar.active {
+    left: 0;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 20px;
+    position: relative;
+  }
+  
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }

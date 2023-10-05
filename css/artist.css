@@ -1,0 +1,55 @@
+/* index.css */
+
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page layout */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-heading {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex-basis: 50%;
+    padding: 20px;
+  }
+  
+  .image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .artist-page-info {
+    font-weight: bold;
+  }
+  
+  .artist-page-info-data {
+    margin-left: 10px;
+  }
+  
+  .artist-page-list {
+    padding-left: 20px;
+  }
+  

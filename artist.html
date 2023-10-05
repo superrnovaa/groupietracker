@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Artist Page - {{.Artist.Name}}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Groupie Tracker</h1>
+  </div>
+  <h4 id="goback-link" class="goback-link"> ← Back to main</h4>
+
+  <!-- The flexible grid (content) -->
+  <div class="row">
+    <div class="main">
+      
+      <h2 class="page-heading">{{.Artist.Name}}</h2>
+
+      <div class="flex-container artist-page-style" id="artist-container">
+
+        
+          <div class="image" id="image" style="background-image: url('{{ .Artist.Image}} ');"></div>
+       
+       
+          <span class="artist-page-info">Creation Date: </span><span id="creation-date"
+            class="artist-page-info-data">{{.Artist.CreationDate}}</span><br><br>
+
+          <span class="artist-page-info">First Album: </span><span id="first-album"
+            class="artist-page-info-data">{{.Artist.FirstAlbum}}</span id="firstAlbum"><br><br>
+            
+          <span class="artist-page-info">Members: </span>
+          <ul id="members" class="artist-page-list">
+            {{range .Artist.Members}} <li>{{ . }}</li> {{end}}
+          </ul>
+       
+      <hr>
+
+    </div>
+  </div>
+  </div>
+  <h2 class="page-heading">Latest Concerts</h2>
+  <div class="flex-container artist-page-style">
+    <div id="map" style="width: 70%; height: 400px;"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+  <script>
+    function initMap() {
+      var map = L.map('map').setView([0, 0], 2); // Set the initial map view
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+        maxZoom: 18,
+      }).addTo(map);
+
+      /////////
+
+      fetch('/geo', {
+  method: 'POST'
+})
+  .then(response => response.json())
+  .then(data => {
+    console.log('this is js');
+    const countryCoords = data;
+
+    // Process the country coordinates
+    for (const country in countryCoords) {
+      if (countryCoords.hasOwnProperty(country)) {
+        const coordinates = countryCoords[country];
+        const latitude = parseFloat(coordinates[0]);
+        const longitude = parseFloat(coordinates[1]);
+
+        // Use the latitude and longitude values as needed
+        console.log(country, latitude, longitude);
+        L.marker([latitude, longitude]).addTo(map).bindPopup(location.name);
+
+    
+      }
+    }
+  })
+  .catch(error => console.error(error));
+
+};
+      //////
+
+      // Define the concert locations
+    //   var concertLocations = [
+    //     {
+    //       name: "Mainz",
+    //       address: "Germany, Mainz",
+    //       coordinates: [49.992, 8.247]
+    //     },
+    //     {
+    //       name: "Paris",
+    //       address: "France, Paris",
+    //       coordinates: [48.8566, 2.3522]
+    //     },
+    //     {
+    //       name: "London",
+    //       address: "United Kingdom, London",
+    //       coordinates: [51.5074, -0.1278]
+    //     }
+    //     // Add more concert locations as needed
+    //   ];
+
+    //   // Add markers for each concert location
+    //   concertLocations.forEach(function (location) {
+    //     L.marker(location.coordinates).addTo(map).bindPopup(location.name);
+    //   });
+     
+
+    // Initialize the map when the page has finished loading
+    window.addEventListener('DOMContentLoaded', initMap);
+  </script>
+
+</body>
+
+</html>
